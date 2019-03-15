@@ -102,7 +102,7 @@ class _State extends State<MyApp> {
         context: context,
         initialDate: DateTime.now(),
         firstDate: DateTime(2016),
-        lastDate: DateTime(2019));
+        lastDate: DateTime(2020));
 
     if (picked != null) setState(() => _stringSelectDate = picked.toString());
   }
